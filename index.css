@@ -1,0 +1,32 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap'); 
+
+* {
+margin: 0;
+padding: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Navbar */
+.navbar {
+  background-color: #468FAF;
+}
+
+.navbar-nav .nav-link {
+            color: white !important;
+
+
+/* Body Page  */
+
+
+/*  My Project  */
+
+/*  Tools  */
+
+
+/*  Contact Me */
+
+
+
