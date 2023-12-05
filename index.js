@@ -2,9 +2,9 @@
 
 	"capstone" {
 
-		"liveLink":"<github page link>",
+		"liveLink":"https://github.com/miyoshi07",
 
-		"name","<your name>",
+		"name","Zyron Jade Fausto",
 
 		"isMulti":false
 

@@ -1,32 +1,228 @@
-/*Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
-* {
-margin: 0;
-padding: 0;
-font-family: 'Montserrat', sans-serif;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Montserrat, sans-serif;
+        }
+
+        /* Section */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .card {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        /* Navbar */
+        body {
+                    margin: 0;
+                    padding: 0;
+                    font-family: Montserrat, sans-serif;
+                    background-color: #f4f4f4;
+                }
+
+                nav {
+                    background-color: #263238;
+                    position: fixed;
+                    width: 100%;
+                    top: 0;
+                    z-index: 1000;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                nav ul {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                }
+
+                nav li {
+                    padding: 25px;
+                    position: relative;
+                }
+
+                nav a {
+                    text-decoration: none;
+                    color: white;
+                    transition: background-color 0.3s ease;
+                    display: block;
+                }
+
+                nav a:hover,
+                nav a:focus,
+                nav a:active {
+                    background-color: #555;
+                    
+             
+                        
+                }
+
+                section {
+                    padding: 20px;
+                    margin-top: 80px; /* Adjust this value based on your navbar height */
+                    text-align: center;
+                }
+
+                @media (max-width: 768px) {
+                    nav {
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    nav li {
+                        padding: 15px;
+                        margin-bottom: 10px;
+                    }
+                }
+
+        /* Body Page */
+        #landing {
+            padding-top: 100px;
+            padding-bottom: 50px;
+            background-color: #b7e3c6;
+        }
+
+        #name {
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 24px; /* 100% */
+            padding-bottom: 50px;
+            margin-top: -20px;
+            padding-top: 50px;
+        }
+
+        .rounded-circle {
+          border-radius: 50%;
+          width: 200px; /* Adjust the width as needed */
+          height: 200px; /* Adjust the height as needed */
+          object-fit: cover; /* This property ensures the image maintains its aspect ratio */
+        }
+
+        .container.social-logos img {
+            width: 50px;  /* Set your desired width */
+            height: 50px; /* Set your desired height */
+            
+        }
+
+        #social-logos {
+           
+
+        }
+
+        /* My Project */
+        #projects {
+            padding-top: 80px;
+            background-color: #ebf9eb;
+        }
+
+        #myprojects {
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 24px; /* 100% */
+            padding-bottom: 50px;
+            margin-top: -20px;
+            padding-top: 50px;
+        }
 
 
 
-/* Navbar */
-.navbar {
-  background-color: #468FAF;
-}
+        /* Tools */
+        #mytools {
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 24px; /* 100% */
+            padding-bottom: 70px;
+            margin-top: -20px;
+            padding-top: 100px;
+        }
 
-.navbar-nav .nav-link {
-            color: white !important;
+        .container-fluid {
+            background-color: #65997a;
+            padding: 2rem;
+        }
 
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .navbar {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
 
-/* Body Page  */
+            #mytools {
+                font-size: 40px;
+            }
+        }
 
+        /* Responsive Styles */
+        @media (max-width: 576px) {
+            .tool-logo {
+                width: 80px; /* Adjust the width for small screens */
+            }
 
-/*  My Project  */
+            #mytools {
+                font-size: 30px;
+            }
 
-/*  Tools  */
+            /* Additional mobile adjustments can be added here */
+        }
 
+        /* Contact Me */
+        #contact-session {
+            padding-top: 20px;
+            padding-bottom: 100px;
+            background-color: #54846c;
+            margin-bottom: -50px;
+        }
 
-/*  Contact Me */
+        #contactMessage {
+            color: black !important;
+            text-align: left !important;
 
+        }
 
+        #contactform {
+            background-color: #263238;
+        }
 
+        .tool-logo {
+            max-width: 100%;
+            height: auto;
+            width: 100px; /* Adjust the width as needed */
+            margin: 10px; /* Add margin for spacing between images */
+        }
+
+        .form-group {
+            padding-bottom: 20px;
+        }
+       
+
+        /* Footer */
+        .footer {
+            margin-top: 5rem;
+            background: #263238;
+        }
+
+        #contact-session h2,
+        #contact-session label,
+        #contact-session textarea {
+            color: white;
+            text-align: center;
+        }
+
+        

@@ -3,153 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ada Lovelace - Full Stack Developer</title>
+    <title>Full Stack Development</title>
+    <!-- CSS Link -->
     <link rel="stylesheet" type="text/css" href="./index.css">
+    <!-- BootStrap Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Tools</a></li>
-                <li class="nav-item"><a class="nav-link disabled" href="#">Zyron</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact Me</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+
+     <!-- Navbar -->
+    
+     <nav>
+          <ul>
+              <li><a href="#landing">Home</a></li>
+              <li><a href="#mytools">Tools</a></li>
+              <li><a href="#landing">About Me</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact-session">Contact</a></li>
+          </ul>
+      </nav>
+
+   
 
 <!-- Body Information -->
-<div class="container">
+
+
+<div id="landing">
     <div class="row mt-5">
         <div class="col-md-8 offset-md-2 text-center">
-            <img class="rounded-circle" src="https://i.guim.co.uk/img/media/3656ae6ea2209d4561caf04fa9f172a519908ca3/0_28_2318_1391/master/2318.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=afcc355f47876bc495cdc3c902639bae" width="250" alt="Ada Lovelace">
-            <h1>Zyron Jade Fausto</h1>
-            <h3>Full Stack Developer</h3>
-            <p>Zyron, a 23-year-old IT specialist, is a multi-talented individual with a passion for playing instruments, watching anime, and coding. With a keen interest in technology and a knack for problem-solving, Zyron has found his niche in the world of IT. Currently, he is part of a dynamic team working in production management, where his expertise and skills are put to good use. With a diverse range of hobbies and a strong professional background, Zyron brings a unique perspective and a dedicated work ethic to his role.</p>
+            <img class="rounded-circle" src="images/Zyron.JPG" alt="landing">
+
+            <h1 id="name">Zyron Jade Fausto</h1>
+
+            <div class="container social-logos" id="social-logos">
+              <a href="https://github.com" target="_blank"><img src="images/github-logo.png" alt="GitHub Logo"></a>
+              <a href="https://linkedin.com" target="_blank"><img src="images/linkedin-logo.png" alt="LinkedIn Logo"></a>
+              <a href="https://linux.org" target="_blank"><img src="images/linux-logo.png" alt="Linux Logo"></a>
+              <a href="https://gitlab.com" target="_blank"><img src="images/gitlab-logo.png" alt="GitLab Logo"></a>
+            </div>
+
+            <h3 class="card-title">Full Stack Developer</h3>
+            <p class="text-justify">
+            Zyron, a 23-year-old IT whiz, is a versatile individual who loves playing musical instruments, watching anime, and coding. With a deep passion for technology and a talent for solving problems, Zyron has discovered his calling in the IT industry. He's currently part of an energetic team focused on production management, where his valuable skills and knowledge are making a real impact. With a wide range of hobbies and solid professional experience, Zyron adds a special touch and a strong work ethic to his role.</p>
+
         </div>
     </div>
 </div>
 
+<!-- End of the landing page -->
 <!-- Wave SVG -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#89c2d9" fill-opacity="1" d="M0,160L48,138.7C96,117,192,75,288,90.7C384,107,480,181,576,186.7C672,192,768,128,864,133.3C960,139,1056,213,1152,229.3C1248,245,1344,203,1392,181.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+<svg width="100%" height="auto" viewBox="0 0 1920 240" xmlns="http://www.w3.org/2000/svg"><rect width="1920" height="240" fill="#b7e3c6"/><path d="M1920,240C1642,240.33333333333334,280.5,246.33333333333334,0,240C-280.5,233.66666666666666,158.16666666666669,203,237,202C315.8333333333333,201,393.6666666666667,236.16666666666666,473,234C552.3333333333334,231.83333333333334,632.5,190.33333333333334,713,189C793.5,187.66666666666666,876.3333333333334,235.33333333333334,956,226C1035.6666666666667,216.66666666666666,1112.3333333333333,152.5,1191,133C1269.6666666666667,113.5,1348.5,91.5,1428,109C1507.5,126.5,1586,216.16666666666666,1668,238C1750,259.8333333333333,2198,239.66666666666666,1920,240C1642,240.33333333333334,280.5,246.33333333333334,0,240" fill="#eaf9ea"/></svg>
+
+
+
 
 <!-- My Projects -->
-<div class="container Projects">
-    <h2 class="text-center">My Projects</h2>
+<div class="container-fluid" id="projects">
+    <h1 class="text-center" id="myprojects">My Projects</h1>
     <div class="row">
 
         <!-- Left -->
         <div class="col-md-4">
-            <h2 class="text-center">HTML</h2>
+            <h2 class="text-center">E-Commerce</h2>
             <div class="card mx-auto">
-                <img class="card-img-top" src="..." alt="Card image cap">
+
+                <img class="card-img-top" src="images/Ecommerce.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">E-Commerce Website</h5>
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">An e-commerce platform is a digital marketplace that allows businesses and individuals to buy and sell goods and services over the internet. It provides a virtual storefront where customers can browse through a wide range of products, make purchases, and complete transactions securely. E-commerce platforms often offer features such as secure payment processing, integrated shipping options, and personalized user accounts for a seamless shopping experience.</p>
+                 
                 </div>
             </div>
         </div>
 
         <!-- Middle -->
         <div class="col-md-4">
-            <h2 class="text-center">HTML</h2>
+            <h2 class="text-center">Network</h2>
             <div class="card mx-auto">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="images/Network.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Network Engineering</h5>
+                    <p class="card-text">A network is a collection of interconnected nodes or devices that are capable of sharing data and resources with each other. In the context of computing, a network can refer to a series of interconnected computers, servers, and other devices that can communicate with each other to share information and resources. Networks can be local, such as a home or office network, or they can be wide-reaching, such as the internet. </p>
+                   
                 </div>
             </div>
         </div>
 
         <!-- Right -->
         <div class="col-md-4">
-            <h2 class="text-center">HTML</h2>
+            <h2 class="text-center">Hotel Booking System</h2>
             <div class="card mx-auto">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="images/Hotel.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick
-
- example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Reservation System</h5>
+                    <p class="card-text">A hotel booking system is a software application or platform that enables users to search, select, and reserve accommodations at hotels, resorts, or other lodging facilities. It typically provides an interface for users to input their search criteria, such as location, check-in and check-out dates, number of guests, and room preferences, and then displays available options based on these parameters. Users can then review details, make a selection, of the booking process. </p>
+                    
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 <!-- End of My Projects -->
 
+<!-- Wave SVG -->
+<svg width="100%" height="auto" viewBox="0 0 1920 240" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1920" height="240" fill="#eaf9ea"/>
+    <path d="M1920,240C1640.5,265.3333333333333,281.1666666666667,257,0,240C-281.1666666666667,223,154.16666666666669,141,233,138C311.8333333333333,135,392.5,221.33333333333334,473,222C553.5,222.66666666666666,636.3333333333334,140.33333333333334,716,142C795.6666666666666,143.66666666666666,871.6666666666666,217.5,951,232C1030.3333333333333,246.5,1112.3333333333333,252.66666666666666,1192,229C1271.6666666666667,205.33333333333334,1348.1666666666667,113.5,1429,90C1509.8333333333333,66.5,1595.1666666666667,63,1677,88C1758.8333333333333,113,2199.5,214.66666666666666,1920,240C1640.5,265.3333333333333,281.1666666666667,257,0,240" fill="#65997a"/>
+</svg>
+
+
+
 <!-- Tools Section -->
-<div class="container-fluid">
-
-        <h3 class="text-center">My Tools</h3>
+<div class="container-fluid tools-container">
+    <h2 id="mytools">My Tools</h2>
     <div class="row">
-        <div class="col-md-4">
-          <h3 class="text-center">Core Tools</h3>
-          <div class="d-flex flex-column" id="core-tools">
-              <div class="d-flex justify-content-center" id="html">
-                  <img width="150" src="images/logo-html5.png" alt="HTML5 Logo"/>
-              </div>
-              <div class="d-flex justify-content-center" id="css-js">
-                  <img width="150" src="images/logo-css3.png" alt="CSS3 Logo"/>
-                  <img width="150" src="images/logo-javascript.png" alt="JavaScript Logo"/>
-              </div>
-          </div>
-        </div>
 
-        
-        <div class="col-md-4">
-            <div class="row">
-          <h3 class="text-center mt-3">MERN</h3>
-        <div class="d-flex flex-md-column" id="other-tools">
-         <div class="d-md-flex justify-content-center" id="Mern-tools">
-            <img width="150" src="images/logo-mongodb.png" alt="MongoDB Logo"/>
-            <img width="150" src="images/logo-expressjs.png" alt="Express.js Logo"/>
-            <img width="150" src="images/logo-react.png" alt="React Logo"/>
+        <!-- Core Tools -->
+        <div class="col-sm-12 col-md-4">
+            <h3 class="text-center mt-3">Core Tools</h3>
+            <div class="d-flex mt-3 justify-content-center" id="core-tools">
+                <img class="tool-logo" src="images/logo-html5.png" alt="HTML5 Logo"/>
+                <img class="tool-logo" src="images/logo-css3.png" alt="CSS3 Logo"/>
+                <img class="tool-logo" src="images/logo-javascript.png" alt="JavaScript Logo"/>
             </div>
         </div>
-        </div>
+
+        <!-- MERN Tools -->
+        <div class="col-sm-12 col-md-4">
+            <h3 class="text-center mt-3">MERN</h3>
+            <div class="d-flex mt-3 justify-content-center" id="mern-tools">
+                <img class="tool-logo" src="images/logo-mongodb.png" alt="MongoDB Logo"/>
+                <img class="tool-logo" src="images/logo-expressjs.png" alt="Express.js Logo"/>
+                <img class="tool-logo" src="images/logo-react.png" alt="React Logo"/>
+            </div>
         </div>
 
-
-        
-          <div class="col-md-4">
-            <div class="row">
+        <!-- Other Tools -->
+        <div class="col-sm-12 col-md-4">
             <h3 class="text-center mt-3">Other Tools</h3>
-            <div class="d-md-flex mt-3" id="other-tools">
-                    <img width="150" src="images/logo-git.png" alt="Git Logo"/>
-                    <img width="150" src="images/logo-sublime-text-3.png" alt="Sublime Text 3 Logo"/>
-                    <img width="150" src="images/logo-postman.png" alt="Postman Logo"/>
-                    <img width="150" src="images/logo-gitlab-ci-cd.png" alt="GitLab CI/CD Logo"/>
-                </div>
+            <div class="d-flex mt-3 justify-content-center" id="other-tools">
+                <img class="tool-logo" src="images/logo-git.png" alt="Git Logo"/>
+                <img class="tool-logo" src="images/logo-sublime-text-3.png" alt="Sublime Text 3 Logo"/>
+                <img class="tool-logo" src="images/logo-postman.png" alt="Postman Logo"/>
+                <img class="tool-logo" src="images/logo-gitlab-ci-cd.png" alt="GitLab CI/CD Logo"/>
             </div>
-          </div>
+        </div>
+    </div>
 </div>
+
+
+
 
 
 <!-- End of Tools Section -->
 
 <!-- Contact Section -->
 <div id="contact-session">
-    
     <div class="row mt-5 d-flex justify-content-center">
-        <div class="col-sm-12 col-md-8 col-xl-4 offset-4">
-          <h2>Contact Me</h2>
-            <div class="card bg-primary p-3">
-
+        <div class="col-sm-12 col-md-8 col-xl-4">
+            <h2>Message Me</h2>
+            <div class="card p-3" id="contactform">
                 <form id="contactForm">
                     <div class="form-group">
                         <label for="contactName">Name</label>
@@ -159,27 +174,68 @@
                         <label for="contactEmail">Email address</label>
                         <input type="email" class="form-control" id="contactEmail" name="contactEmail" placeholder="name@example.com" required>
                     </div>
-                    <div class="form-group">
-                        <label for="contactMessage">Message</label>
-                        <textarea class="form-control" id="contactMessage" name="contactMessage" rows="5" required></textarea>
+
+                   <div class="form-group">
+                       <label for="contactMessage">Message</label>
+                       <textarea class="form-control" id="contactMessage" name="contactMessage" rows="5" placeholder="Type your message here." required></textarea>
+                   </div>
+
+
+                    <div class="form-group text-center">
+                        <button type="submit" value="Submit" class="btn btn-outline-light">Send Email</button>
                     </div>
-                    <button type="button" class="btn btn-dark" onclick="submitForm()">Send Email</button>
+
+
+                    
                 </form>
             </div>
         </div>
     </div>
 </div>
 
+
+<!-- Modal for Success Message -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="successModalLabel">Message Sent</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Your message has been successfully sent.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- End of Contact Section -->
 </div>
+</div>
 <!-- Footer -->
-<footer class="footer mt-5 py-3 bg-dark text-light">
+<footer class="footer mt-5 py-3 text-light">
     <div class="container text-center">
-        <p>&copy; 2023 My Website. All rights reserved.</p>
+        <p>Zyron Jade Fausto</p>
+        <p>Full Stack Web Developer</p>
+        <p>&copy; All rights reserved 2023.</p>
     </div>
 </footer>
 
+
 <!-- Bootstrap JS -->
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
+    // Your form submission logic here
+    // Show the success modal
+    var myModal = new bootstrap.Modal(document.getElementById('successModal'));
+    myModal.show();
+  });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
